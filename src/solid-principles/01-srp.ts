@@ -1,3 +1,13 @@
+/**
+ * detectar SRP
+ * - nombres de clases/modulos demasiado genericos
+ * - cambios en el codigo suelen afectar a clase/módulo
+ * - la clase involucra múltiples capas
+ * - número elevado de importaciones
+ * - cantidad elevada de métodos públicos
+ * - muchas líneas de código (relativo)
+ */
+
 (() => {
 
     interface Product {
